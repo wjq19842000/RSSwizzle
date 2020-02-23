@@ -9,6 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
   s.source_files = 'RSSwizzle', 'RSSwizzle/**/*.{h,m}'
-  s.frameworks = 'Foundation'
   s.requires_arc = true
 end
